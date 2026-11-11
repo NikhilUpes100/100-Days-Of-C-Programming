@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+
+int main(void)
+{
+    int n, i;
+    float sum = 0;
+
+    printf("Enter the number of terms: ");
+    scanf("%d", &n);
+
+    if (n <= 0) {
+        printf("Please enter a positive number of terms.");
+        return 0;
+    }
+
+    for (i = 1; i <= n; i++) {
+        sum = sum + (float)(2 * i - 1) / (2 * i);
+    }
+
+    printf("Sum of the series = %.2f", sum);
+
+    return 0;
+}
