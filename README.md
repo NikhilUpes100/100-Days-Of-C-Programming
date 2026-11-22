@@ -85,7 +85,7 @@ Follow these steps to run any C program.
 **Step 1: Clone the repository**
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/100-Days-Of-C-Programming.git
+git clone https://github.com/NikhilUpes100/100-Days-Of-C-Programming.git
 ```
 
 **Step 2: Open the repository**
